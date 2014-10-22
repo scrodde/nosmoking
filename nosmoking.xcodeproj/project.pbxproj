@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2611BE4B19F95DB500CE37A3 /* com.scrodde.nosmoking.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2611BE4A19F95DB500CE37A3 /* com.scrodde.nosmoking.plist */; };
+		2611BE4E19F9667800CE37A3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2611BE4C19F9667800CE37A3 /* LICENSE */; };
+		2611BE5119F9672200CE37A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2611BE5019F9672200CE37A3 /* README.md */; };
+		26DA90F819F841AE0010B227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA90F719F841AE0010B227 /* main.m */; };
+		26DA90FB19F841AE0010B227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA90FA19F841AE0010B227 /* AppDelegate.m */; };
+		26DA90FD19F841AE0010B227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DA90FC19F841AE0010B227 /* Images.xcassets */; };
+		26DA910019F841AE0010B227 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DA90FE19F841AE0010B227 /* MainMenu.xib */; };
+		26DA910C19F841AE0010B227 /* nosmokingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA910B19F841AE0010B227 /* nosmokingTests.m */; };
+		26DA911A19F844BA0010B227 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 26DA911819F844BA0010B227 /* Icon.icns */; };
+		26DA911B19F844BA0010B227 /* nosmoking_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DA911919F844BA0010B227 /* nosmoking_1024.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26DA910619F841AE0010B227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DA90EA19F841AE0010B227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DA90F119F841AE0010B227;
+			remoteInfo = nosmoking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2611BE4A19F95DB500CE37A3 /* com.scrodde.nosmoking.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.scrodde.nosmoking.plist; sourceTree = "<group>"; };
+		2611BE4C19F9667800CE37A3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2611BE5019F9672200CE37A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26DA90F219F841AE0010B227 /* nosmoking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nosmoking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DA90F619F841AE0010B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DA90F719F841AE0010B227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26DA90F919F841AE0010B227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26DA90FA19F841AE0010B227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26DA90FC19F841AE0010B227 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26DA90FF19F841AE0010B227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		26DA910519F841AE0010B227 /* nosmokingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nosmokingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DA910A19F841AE0010B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DA910B19F841AE0010B227 /* nosmokingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nosmokingTests.m; sourceTree = "<group>"; };
+		26DA911819F844BA0010B227 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		26DA911919F844BA0010B227 /* nosmoking_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nosmoking_1024.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DA90EF19F841AE0010B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DA910219F841AE0010B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DA90E919F841AE0010B227 = {
+			isa = PBXGroup;
+			children = (
+				2611BE5019F9672200CE37A3 /* README.md */,
+				2611BE4C19F9667800CE37A3 /* LICENSE */,
+				26DA90F419F841AE0010B227 /* nosmoking */,
+				26DA910819F841AE0010B227 /* nosmokingTests */,
+				26DA90F319F841AE0010B227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DA90F319F841AE0010B227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DA90F219F841AE0010B227 /* nosmoking.app */,
+				26DA910519F841AE0010B227 /* nosmokingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DA90F419F841AE0010B227 /* nosmoking */ = {
+			isa = PBXGroup;
+			children = (
+				26DA90F919F841AE0010B227 /* AppDelegate.h */,
+				2611BE4A19F95DB500CE37A3 /* com.scrodde.nosmoking.plist */,
+				26DA90FA19F841AE0010B227 /* AppDelegate.m */,
+				26DA911719F844BA0010B227 /* icons */,
+				26DA90FC19F841AE0010B227 /* Images.xcassets */,
+				26DA90FE19F841AE0010B227 /* MainMenu.xib */,
+				26DA90F519F841AE0010B227 /* Supporting Files */,
+			);
+			path = nosmoking;
+			sourceTree = "<group>";
+		};
+		26DA90F519F841AE0010B227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26DA90F619F841AE0010B227 /* Info.plist */,
+				26DA90F719F841AE0010B227 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26DA910819F841AE0010B227 /* nosmokingTests */ = {
+			isa = PBXGroup;
+			children = (
+				26DA910B19F841AE0010B227 /* nosmokingTests.m */,
+				26DA910919F841AE0010B227 /* Supporting Files */,
+			);
+			path = nosmokingTests;
+			sourceTree = "<group>";
+		};
+		26DA910919F841AE0010B227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26DA910A19F841AE0010B227 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26DA911719F844BA0010B227 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				26DA911819F844BA0010B227 /* Icon.icns */,
+				26DA911919F844BA0010B227 /* nosmoking_1024.png */,
+			);
+			path = icons;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DA90F119F841AE0010B227 /* nosmoking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DA910F19F841AE0010B227 /* Build configuration list for PBXNativeTarget "nosmoking" */;
+			buildPhases = (
+				26DA90EE19F841AE0010B227 /* Sources */,
+				26DA90EF19F841AE0010B227 /* Frameworks */,
+				26DA90F019F841AE0010B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nosmoking;
+			productName = nosmoking;
+			productReference = 26DA90F219F841AE0010B227 /* nosmoking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26DA910419F841AE0010B227 /* nosmokingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DA911219F841AE0010B227 /* Build configuration list for PBXNativeTarget "nosmokingTests" */;
+			buildPhases = (
+				26DA910119F841AE0010B227 /* Sources */,
+				26DA910219F841AE0010B227 /* Frameworks */,
+				26DA910319F841AE0010B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DA910719F841AE0010B227 /* PBXTargetDependency */,
+			);
+			name = nosmokingTests;
+			productName = nosmokingTests;
+			productReference = 26DA910519F841AE0010B227 /* nosmokingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DA90EA19F841AE0010B227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Niklas Schröder";
+				TargetAttributes = {
+					26DA90F119F841AE0010B227 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					26DA910419F841AE0010B227 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 26DA90F119F841AE0010B227;
+					};
+				};
+			};
+			buildConfigurationList = 26DA90ED19F841AE0010B227 /* Build configuration list for PBXProject "nosmoking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DA90E919F841AE0010B227;
+			productRefGroup = 26DA90F319F841AE0010B227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DA90F119F841AE0010B227 /* nosmoking */,
+				26DA910419F841AE0010B227 /* nosmokingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DA90F019F841AE0010B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2611BE4E19F9667800CE37A3 /* LICENSE in Resources */,
+				2611BE4B19F95DB500CE37A3 /* com.scrodde.nosmoking.plist in Resources */,
+				26DA911B19F844BA0010B227 /* nosmoking_1024.png in Resources */,
+				26DA911A19F844BA0010B227 /* Icon.icns in Resources */,
+				26DA90FD19F841AE0010B227 /* Images.xcassets in Resources */,
+				26DA910019F841AE0010B227 /* MainMenu.xib in Resources */,
+				2611BE5119F9672200CE37A3 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DA910319F841AE0010B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DA90EE19F841AE0010B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DA90FB19F841AE0010B227 /* AppDelegate.m in Sources */,
+				26DA90F819F841AE0010B227 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DA910119F841AE0010B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DA910C19F841AE0010B227 /* nosmokingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26DA910719F841AE0010B227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DA90F119F841AE0010B227 /* nosmoking */;
+			targetProxy = 26DA910619F841AE0010B227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26DA90FE19F841AE0010B227 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DA90FF19F841AE0010B227 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DA910D19F841AE0010B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26DA910E19F841AE0010B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26DA911019F841AE0010B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = nosmoking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26DA911119F841AE0010B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = nosmoking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26DA911319F841AE0010B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nosmokingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nosmoking.app/Contents/MacOS/nosmoking";
+			};
+			name = Debug;
+		};
+		26DA911419F841AE0010B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nosmokingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nosmoking.app/Contents/MacOS/nosmoking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DA90ED19F841AE0010B227 /* Build configuration list for PBXProject "nosmoking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DA910D19F841AE0010B227 /* Debug */,
+				26DA910E19F841AE0010B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DA910F19F841AE0010B227 /* Build configuration list for PBXNativeTarget "nosmoking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DA911019F841AE0010B227 /* Debug */,
+				26DA911119F841AE0010B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DA911219F841AE0010B227 /* Build configuration list for PBXNativeTarget "nosmokingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DA911319F841AE0010B227 /* Debug */,
+				26DA911419F841AE0010B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DA90EA19F841AE0010B227 /* Project object */;
+}
